@@ -10,6 +10,7 @@ import { Trust } from "@/components/site/Trust";
 import { About } from "@/components/site/About";
 import { ContactForm } from "@/components/site/ContactForm";
 import { Footer } from "@/components/site/Footer";
+import { WhatsAppFloat } from "@/components/site/WhatsAppFloat";
 
 function App() {
   return (
@@ -27,6 +28,8 @@ function App() {
       <About />
 
       <ContactForm />
+
+      <WhatsAppFloat />
 
       <Footer />
     </>
