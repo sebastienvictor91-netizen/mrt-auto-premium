@@ -1,4 +1,3 @@
-import { Link } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import { Menu, X, MessageCircle, Phone } from "lucide-react";
 
@@ -30,7 +29,7 @@ export function Navbar() {
       }`}
     >
       <div className="mx-auto max-w-7xl px-5 lg:px-8 h-18 md:h-20 flex items-center justify-between">
-        <Link to="/" className="flex items-center gap-3" onClick={() => setOpen(false)}>
+        <a href="/" className="flex items-center gap-3" onClick={() => setOpen(false)}>
           <div className="h-10 w-10 rounded-lg bg-gradient-petrol flex items-center justify-center shadow-petrol">
             <span className="text-[11px] font-bold tracking-wider text-primary-foreground">MRT</span>
           </div>
@@ -38,22 +37,21 @@ export function Navbar() {
             <div className="text-sm font-display font-semibold text-foreground tracking-tight">MRT Auto Premium</div>
             <div className="text-[10px] tracking-[0.2em] text-muted-foreground uppercase">Bouguenais — Nantes</div>
           </div>
-        </Link>
+        </a>
 
-        <nav className="hidden lg:flex items-center gap-1">
+        <nav className="hidden md:flex items-center gap-1">
           {links.map((l) => (
-            <Link
+            <a
               key={l.to}
-              to={l.to}
+              href={l.to}
               className="px-4 py-2 rounded-md text-sm font-medium text-muted-foreground hover:text-foreground hover:bg-secondary transition-smooth"
-              activeProps={{ className: "text-petrol bg-accent" }}
             >
               {l.label}
-            </Link>
+            </a>
           ))}
         </nav>
 
-        <div className="hidden lg:flex items-center gap-3">
+        <div className="hidden md:flex items-center gap-3">
           <a
             href="tel:+33624275116"
             className="inline-flex items-center gap-2 px-4 py-2.5 text-sm font-medium text-foreground hover:text-petrol transition-colors"
@@ -73,25 +71,24 @@ export function Navbar() {
         <button
           aria-label="Menu"
           onClick={() => setOpen(!open)}
-          className="lg:hidden p-2 text-foreground rounded-md hover:bg-secondary"
+          className="md:hidden p-2 text-foreground rounded-md hover:bg-secondary"
         >
           {open ? <X size={22} /> : <Menu size={22} />}
         </button>
       </div>
 
       {open && (
-        <div className="lg:hidden bg-background border-t border-border">
+        <div className="md:hidden bg-background border-t border-border">
           <div className="px-5 py-5 flex flex-col gap-1">
             {links.map((l) => (
-              <Link
+              <a
                 key={l.to}
-                to={l.to}
+                href={l.to}
                 onClick={() => setOpen(false)}
                 className="px-4 py-3 rounded-md text-base font-medium text-muted-foreground hover:bg-secondary"
-                activeProps={{ className: "text-petrol bg-accent" }}
               >
                 {l.label}
-              </Link>
+              </a>
             ))}
             <a
               href="tel:+33624275116"
@@ -111,3 +108,4 @@ export function Navbar() {
     </header>
   );
 }
+

@@ -52,13 +52,13 @@ export function Hero() {
             transition={{ duration: 0.6, delay: 0.3 }}
             className="mt-8 flex flex-col sm:flex-row gap-3"
           >
-            <Link
-              to="/vehicules"
+            <a
+              href="/vehicules"
               className="group inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-lg bg-gradient-petrol text-primary-foreground text-sm font-semibold shadow-petrol hover:shadow-card-hover transition-smooth"
             >
               Voir les véhicules
               <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
-            </Link>
+            </a>
             <a
               href="https://wa.me/33624275116"
               target="_blank"

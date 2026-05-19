@@ -32,11 +32,11 @@ export function Footer() {
         <div>
           <h4 className="text-xs tracking-[0.2em] uppercase text-muted-foreground mb-5 font-semibold">Navigation</h4>
           <ul className="space-y-3 text-sm">
-            <li><Link to="/" className="hover:text-petrol text-foreground transition-colors">Accueil</Link></li>
-            <li><Link to="/vehicules" className="hover:text-petrol text-foreground transition-colors">Véhicules</Link></li>
-            <li><Link to="/services" className="hover:text-petrol text-foreground transition-colors">Services</Link></li>
-            <li><Link to="/a-propos" className="hover:text-petrol text-foreground transition-colors">À propos</Link></li>
-            <li><Link to="/contact" className="hover:text-petrol text-foreground transition-colors">Contact</Link></li>
+            <li><a href="/" className="hover:text-petrol text-foreground transition-colors">Accueil</a></li>
+            <li><a href="/vehicules" className="hover:text-petrol text-foreground transition-colors">Véhicules</a></li>
+            <li><a href="/services" className="hover:text-petrol text-foreground transition-colors">Services</a></li>
+            <li><a href="/a-propos" className="hover:text-petrol text-foreground transition-colors">À propos</a></li>
+            <li><a href="/contact" className="hover:text-petrol text-foreground transition-colors">Contact</a></li>
           </ul>
         </div>
 
