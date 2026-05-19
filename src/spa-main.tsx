@@ -1,37 +1,21 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import { RouterProvider, createRouter } from "@tanstack/react-router";
+import { routeTree } from "./routeTree.gen";
 import "./styles.css";
 
-import { Route as IndexRoute } from "./routes/index";
-import { Route as VehiculesRoute } from "./routes/vehicules";
-import { Route as ServicesRoute } from "./routes/services";
-import { Route as AProposRoute } from "./routes/a-propos";
-import { Route as ContactRoute } from "./routes/contact";
+const router = createRouter({
+  routeTree,
+});
 
-function App() {
-  const path = window.location.pathname;
-
-  if (path.startsWith("/vehicules")) {
-    return <VehiculesRoute.component />;
+declare module "@tanstack/react-router" {
+  interface Register {
+    router: typeof router;
   }
-
-  if (path.startsWith("/services")) {
-    return <ServicesRoute.component />;
-  }
-
-  if (path.startsWith("/a-propos")) {
-    return <AProposRoute.component />;
-  }
-
-  if (path.startsWith("/contact")) {
-    return <ContactRoute.component />;
-  }
-
-  return <IndexRoute.component />;
 }
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
