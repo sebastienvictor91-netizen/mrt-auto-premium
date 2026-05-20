@@ -24,8 +24,8 @@ function Index() {
   return (
     <>
       <Hero />
-      <Services />
       <Vehicles />
+      <Services />
       <Trust />
       <About />
       <ContactForm />

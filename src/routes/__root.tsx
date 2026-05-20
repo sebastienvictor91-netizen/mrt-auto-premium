@@ -83,7 +83,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         rel: "stylesheet",
         href: "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap",
       },
-      { rel: "icon", href: "/favicon.svg", type: "image/svg+xml" },
+      { rel: "icon", href: "/favicon.svg?v=3", type: "image/svg+xml" },
     ],
     scripts: [
       {
@@ -94,7 +94,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           name: "MRT AUTO PREMIUM",
           founder: "Mohanad Mikawi",
           telephone: "+33624275116",
-          email: "mikawimoh88@gmail.com",
+          email: "contact@mrtautopremium.fr",
           vatID: "FR92104303771",
           taxID: "104303771",
           address: {
