@@ -4,6 +4,7 @@ import "./styles.css";
 
 import { Navbar } from "@/components/site/Navbar";
 import { Hero } from "@/components/site/Hero";
+import { LiveStock } from "@/components/site/LiveStock";
 import { Services } from "@/components/site/Services";
 import { Vehicles } from "@/components/site/Vehicles";
 import { Trust } from "@/components/site/Trust";
@@ -22,6 +23,7 @@ function App() {
     <>
       <Navbar />
       <Hero />
+      <LiveStock />
       <Vehicles />
       <Services />
       <Trust />
