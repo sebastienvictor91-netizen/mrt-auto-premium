@@ -45,7 +45,7 @@ export function Footer() {
           <ul className="space-y-3.5 text-sm text-muted-foreground">
             <li className="flex gap-3"><MapPin size={16} className="mt-0.5 shrink-0 text-petrol" /> <span className="text-foreground">34A Rue de Bellevue<br />44340 Bouguenais</span></li>
             <li className="flex gap-3"><Phone size={16} className="mt-0.5 shrink-0 text-petrol" /> <a href="tel:+33624275116" className="text-foreground hover:text-petrol">+33 6 24 27 51 16</a></li>
-            <li className="flex gap-3"><Mail size={16} className="mt-0.5 shrink-0 text-petrol" /> <a href="mailto:mikawimoh88@gmail.com" className="text-foreground hover:text-petrol break-all">mikawimoh88@gmail.com</a></li>
+            <li className="flex gap-3"><Mail size={16} className="mt-0.5 shrink-0 text-petrol" /> <a href="mailto:contact@mrtautopremium.fr" className="text-foreground hover:text-petrol break-all">contact@mrtautopremium.fr</a></li>
           </ul>
         </div>
 

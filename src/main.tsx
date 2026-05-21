@@ -11,26 +11,23 @@ import { About } from "@/components/site/About";
 import { ContactForm } from "@/components/site/ContactForm";
 import { Footer } from "@/components/site/Footer";
 import { WhatsAppFloat } from "@/components/site/WhatsAppFloat";
+import Admin from "@/pages/Admin";
 
 function App() {
+  if (window.location.pathname === "/admin") {
+    return <Admin />;
+  }
+
   return (
     <>
       <Navbar />
-
       <Hero />
-
-      <Services />
-
       <Vehicles />
-
+      <Services />
       <Trust />
-
       <About />
-
       <ContactForm />
-
       <WhatsAppFloat />
-
       <Footer />
     </>
   );

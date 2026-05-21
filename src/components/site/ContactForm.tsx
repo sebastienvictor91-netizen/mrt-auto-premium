@@ -65,9 +65,9 @@ export function ContactForm() {
               <div className="h-11 w-11 rounded-lg bg-white/20 flex items-center justify-center"><MessageCircle size={18} /></div>
               <div><div className="text-xs opacity-90">WhatsApp — réponse rapide</div><div className="text-sm font-semibold">Discuter maintenant</div></div>
             </a>
-            <a href="mailto:mikawimoh88@gmail.com" className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border shadow-soft hover:shadow-card transition-smooth">
+            <a href="mailto:contact@mrtautopremium.fr" className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border shadow-soft hover:shadow-card transition-smooth">
               <div className="h-11 w-11 rounded-lg bg-accent flex items-center justify-center"><Mail size={18} className="text-petrol" /></div>
-              <div className="min-w-0"><div className="text-xs text-muted-foreground">Email</div><div className="text-sm font-semibold text-foreground truncate">mikawimoh88@gmail.com</div></div>
+              <div className="min-w-0"><div className="text-xs text-muted-foreground">Email</div><div className="text-sm font-semibold text-foreground truncate">contact@mrtautopremium.fr</div></div>
             </a>
             <div className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border shadow-soft">
               <div className="h-11 w-11 rounded-lg bg-accent flex items-center justify-center"><MapPin size={18} className="text-petrol" /></div>
