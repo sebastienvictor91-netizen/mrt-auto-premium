@@ -37,7 +37,7 @@ export function ContactForm() {
     const text = encodeURIComponent(
       `Bonjour MRT Auto Premium,\n\nNom : ${data.name}\nTéléphone : ${data.phone}\nVéhicule recherché : ${data.vehicle || "—"}\nBudget : ${data.budget || "—"}\n\n${data.message || ""}`,
     );
-    window.open(`https://wa.me/33624275116?text=${text}`, "_blank", "noopener");
+    window.open(`https://wa.me/33746271955?text=${text}`, "_blank", "noopener");
     setStatus("success");
     (e.target as HTMLFormElement).reset();
   }
@@ -57,11 +57,11 @@ export function ContactForm() {
           />
 
           <div className="mt-8 space-y-3">
-            <a href="tel:+33624275116" className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border shadow-soft hover:shadow-card transition-smooth">
+            <a href="tel:+33746271955" className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border shadow-soft hover:shadow-card transition-smooth">
               <div className="h-11 w-11 rounded-lg bg-accent flex items-center justify-center"><Phone size={18} className="text-petrol" /></div>
-              <div><div className="text-xs text-muted-foreground">Téléphone</div><div className="text-sm font-semibold text-foreground">+33 6 24 27 51 16</div></div>
+              <div><div className="text-xs text-muted-foreground">Téléphone</div><div className="text-sm font-semibold text-foreground">+33 7 46 27 19 55</div></div>
             </a>
-            <a href="https://wa.me/33624275116" target="_blank" rel="noreferrer" className="flex items-center gap-4 p-4 rounded-xl bg-success text-white shadow-soft hover:opacity-95 transition-smooth">
+            <a href="https://wa.me/33746271955" target="_blank" rel="noreferrer" className="flex items-center gap-4 p-4 rounded-xl bg-success text-white shadow-soft hover:opacity-95 transition-smooth">
               <div className="h-11 w-11 rounded-lg bg-white/20 flex items-center justify-center"><MessageCircle size={18} /></div>
               <div><div className="text-xs opacity-90">WhatsApp — réponse rapide</div><div className="text-sm font-semibold">Discuter maintenant</div></div>
             </a>
@@ -71,7 +71,7 @@ export function ContactForm() {
             </a>
             <div className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border shadow-soft">
               <div className="h-11 w-11 rounded-lg bg-accent flex items-center justify-center"><MapPin size={18} className="text-petrol" /></div>
-              <div><div className="text-xs text-muted-foreground">Adresse</div><div className="text-sm font-semibold text-foreground">34A Rue de Bellevue, 44340 Bouguenais</div></div>
+              <div><div className="text-xs text-muted-foreground">Adresse</div><div className="text-sm font-semibold text-foreground">16 Rue du Vivier, ZA de la Raye 44140 Montbert</div></div>
             </div>
           </div>
         </div>

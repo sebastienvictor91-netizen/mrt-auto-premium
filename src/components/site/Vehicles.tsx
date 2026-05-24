@@ -140,7 +140,7 @@ export function Vehicles() {
         <SectionHeading
           eyebrow="Notre stock"
           title="Véhicules disponibles en concession."
-          subtitle="Une sélection actualisée régulièrement, contrôlée et préparée. Tous nos véhicules sont visibles à Bouguenais sur rendez-vous."
+          subtitle="Une sélection actualisée régulièrement, contrôlée et préparée. Tous nos véhicules sont visibles à Montbert sur rendez-vous."
         />
 
         <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
@@ -202,7 +202,7 @@ export function Vehicles() {
                   </div>
 
                   <a
-                    href={`https://wa.me/33624275116?text=${encodeURIComponent(
+                    href={`https://wa.me/33746271955?text=${encodeURIComponent(
                       c.whatsappText
                     )}`}
                     target="_blank"

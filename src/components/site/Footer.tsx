@@ -17,10 +17,10 @@ export function Footer() {
           </div>
           <p className="text-sm text-muted-foreground leading-relaxed">
             Votre spécialiste de la vente, importation et recherche
-            personnalisée de véhicules d'occasion à Bouguenais et Nantes.
+            personnalisée de véhicules d'occasion à Montbert et Nantes.
           </p>
           <a
-            href="https://wa.me/33624275116"
+            href="https://wa.me/33746271955"
             target="_blank"
             rel="noreferrer"
             className="mt-5 inline-flex items-center gap-2 bg-success text-white text-sm font-medium px-4 py-2.5 rounded-lg shadow-soft hover:opacity-90 transition-smooth"
@@ -43,8 +43,8 @@ export function Footer() {
         <div>
           <h4 className="text-xs tracking-[0.2em] uppercase text-muted-foreground mb-5 font-semibold">Contact</h4>
           <ul className="space-y-3.5 text-sm text-muted-foreground">
-            <li className="flex gap-3"><MapPin size={16} className="mt-0.5 shrink-0 text-petrol" /> <span className="text-foreground">34A Rue de Bellevue<br />44340 Bouguenais</span></li>
-            <li className="flex gap-3"><Phone size={16} className="mt-0.5 shrink-0 text-petrol" /> <a href="tel:+33624275116" className="text-foreground hover:text-petrol">+33 6 24 27 51 16</a></li>
+            <li className="flex gap-3"><MapPin size={16} className="mt-0.5 shrink-0 text-petrol" /> <span className="text-foreground">34A Rue de Bellevue<br />44340 Montbert</span></li>
+            <li className="flex gap-3"><Phone size={16} className="mt-0.5 shrink-0 text-petrol" /> <a href="tel:+33746271955" className="text-foreground hover:text-petrol">+33 7 46 27 19 55</a></li>
             <li className="flex gap-3"><Mail size={16} className="mt-0.5 shrink-0 text-petrol" /> <a href="mailto:contact@mrtautopremium.fr" className="text-foreground hover:text-petrol break-all">contact@mrtautopremium.fr</a></li>
           </ul>
         </div>

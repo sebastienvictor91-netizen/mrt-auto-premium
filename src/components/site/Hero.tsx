@@ -14,7 +14,7 @@ export function Hero() {
             transition={{ duration: 0.6 }}
             className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-accent text-petrol text-xs font-semibold uppercase tracking-wider mb-6"
           >
-            <MapPin size={13} /> Bouguenais — Nantes
+            <MapPin size={13} /> Montbert — Nantes
           </motion.div>
 
           <motion.h1
@@ -32,7 +32,7 @@ export function Hero() {
             transition={{ duration: 0.6, delay: 0.15 }}
             className="mt-5 text-xl md:text-2xl text-foreground/80 font-medium"
           >
-            Votre spécialiste automobile à Bouguenais et Nantes.
+            Votre spécialiste automobile à Montbert et Nantes.
           </motion.p>
 
           <motion.p
@@ -60,7 +60,7 @@ export function Hero() {
               <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
             </a>
             <a
-              href="https://wa.me/33624275116"
+              href="https://wa.me/33746271955"
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-lg bg-success text-white text-sm font-semibold shadow-soft hover:opacity-90 transition-smooth"

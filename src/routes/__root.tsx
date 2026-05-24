@@ -214,7 +214,7 @@ export const Route =
 
             founder: "Mohanad Mikawi",
 
-            telephone: "+33624275116",
+            telephone: "+33746271955",
 
             email: "contact@mrtautopremium.fr",
 
@@ -229,7 +229,7 @@ export const Route =
 
               postalCode: "44340",
 
-              addressLocality: "Bouguenais",
+              addressLocality: "Montbert",
 
               addressCountry: "FR",
             },

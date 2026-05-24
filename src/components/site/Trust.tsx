@@ -5,7 +5,7 @@ const badges = [
   { icon: ShieldCheck, label: "Société française", value: "Immatriculée & déclarée" },
   { icon: FileCheck2, label: "SIREN", value: "104 303 771" },
   { icon: BadgeCheck, label: "TVA intracommunautaire", value: "FR92 104303771" },
-  { icon: MapPin, label: "Localisation", value: "Bouguenais — Nantes" },
+  { icon: MapPin, label: "Localisation", value: "Montbert — Nantes" },
   { icon: MessageCircle, label: "Disponibilité", value: "WhatsApp 7j/7" },
   { icon: UserCheck, label: "Accompagnement", value: "Personnalisé & humain" },
   { icon: Wrench, label: "Véhicules contrôlés", value: "Sélection rigoureuse" },

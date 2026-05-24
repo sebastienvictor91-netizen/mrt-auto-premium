@@ -6,7 +6,7 @@ export const Route = createFileRoute("/vehicules")({
   head: () => ({
     meta: [
       { title: "Véhicules disponibles — MRT Auto Premium" },
-      { name: "description", content: "Découvrez notre stock de véhicules d'occasion à Bouguenais / Nantes : Peugeot 3008, 2008, Citroën C4, C3 Aircross, Renault Captur, Volkswagen Golf, Audi A3, Mercedes Classe A." },
+      { name: "description", content: "Découvrez notre stock de véhicules d'occasion à Montbert / Nantes : Peugeot 3008, 2008, Citroën C4, C3 Aircross, Renault Captur, Volkswagen Golf, Audi A3, Mercedes Classe A." },
       { property: "og:title", content: "Véhicules disponibles — MRT Auto Premium" },
       { property: "og:description", content: "SUV familiaux, compactes et premium d'occasion, contrôlés et préparés." },
       { property: "og:url", content: "/vehicules" },

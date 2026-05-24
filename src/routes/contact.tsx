@@ -5,7 +5,7 @@ export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
       { title: "Contact — MRT Auto Premium" },
-      { name: "description", content: "Contactez MRT Auto Premium à Bouguenais / Nantes. Téléphone, WhatsApp, email — réponse personnalisée et rapide." },
+      { name: "description", content: "Contactez MRT Auto Premium à Monbert / Nantes. Téléphone, WhatsApp, email — réponse personnalisée et rapide." },
       { property: "og:title", content: "Contact — MRT Auto Premium" },
       { property: "og:description", content: "Parlons de votre projet automobile." },
       { property: "og:url", content: "/contact" },

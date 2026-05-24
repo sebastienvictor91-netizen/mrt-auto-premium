@@ -6,7 +6,7 @@ export const Route = createFileRoute("/a-propos")({
   head: () => ({
     meta: [
       { title: "À propos — MRT Auto Premium" },
-      { name: "description", content: "MRT Auto Premium, spécialiste automobile à Bouguenais / Nantes. Fondée par Mohanad Mikawi, l'entreprise accompagne ses clients avec transparence et sérieux." },
+      { name: "description", content: "MRT Auto Premium, spécialiste automobile à Montbert / Nantes. Fondée par Mohanad Mikawi, l'entreprise accompagne ses clients avec transparence et sérieux." },
       { property: "og:title", content: "À propos — MRT Auto Premium" },
       { property: "og:description", content: "Un garage humain, sérieux et accessible." },
       { property: "og:url", content: "/a-propos" },

@@ -35,7 +35,7 @@ export function Navbar() {
           </div>
           <div className="leading-tight">
             <div className="text-sm font-display font-semibold text-foreground tracking-tight">MRT Auto Premium</div>
-            <div className="text-[10px] tracking-[0.2em] text-muted-foreground uppercase">Bouguenais — Nantes</div>
+            <div className="text-[10px] tracking-[0.2em] text-muted-foreground uppercase">Montbert — Nantes</div>
           </div>
         </a>
 
@@ -53,13 +53,13 @@ export function Navbar() {
 
         <div className="hidden md:flex items-center gap-3">
           <a
-            href="tel:+33624275116"
+            href="tel:+33746271955"
             className="inline-flex items-center gap-2 px-4 py-2.5 text-sm font-medium text-foreground hover:text-petrol transition-colors"
           >
-            <Phone size={16} /> 06 24 27 51 16
+            <Phone size={16} /> 07 46 27 19 55
           </a>
           <a
-            href="https://wa.me/33624275116"
+            href="https://wa.me/33746271955"
             target="_blank"
             rel="noreferrer"
             className="inline-flex items-center gap-2 bg-success hover:opacity-90 text-white text-sm font-medium px-5 py-2.5 rounded-lg shadow-soft transition-smooth"
@@ -91,13 +91,13 @@ export function Navbar() {
               </a>
             ))}
             <a
-              href="tel:+33624275116"
+              href="tel:+33746271955"
               className="mt-3 inline-flex items-center justify-center gap-2 px-4 py-3.5 rounded-lg border border-border text-foreground font-medium"
             >
-              <Phone size={16} /> 06 24 27 51 16
+              <Phone size={16} /> 07 46 27 19 55
             </a>
             <a
-              href="https://wa.me/33624275116"
+              href="https://wa.me/33746271955"
               className="inline-flex items-center justify-center gap-2 px-4 py-3.5 rounded-lg bg-success text-white font-medium"
             >
               <MessageCircle size={18} /> Contacter sur WhatsApp

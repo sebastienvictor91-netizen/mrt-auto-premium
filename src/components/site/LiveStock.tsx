@@ -274,7 +274,7 @@ export function LiveStock() {
 
                       <a
 
-                        href={`https://wa.me/33624275116?text=${encodeURIComponent(
+                        href={`https://wa.me/33746271955?text=${encodeURIComponent(
 
                           whatsappText
 

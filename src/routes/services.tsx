@@ -7,7 +7,7 @@ export const Route = createFileRoute("/services")({
   head: () => ({
     meta: [
       { title: "Services — MRT Auto Premium" },
-      { name: "description", content: "Vente, recherche personnalisée, dépôt-vente, import-export, accompagnement administratif et reprise de véhicule à Bouguenais / Nantes." },
+      { name: "description", content: "Vente, recherche personnalisée, dépôt-vente, import-export, accompagnement administratif et reprise de véhicule à Montbert / Nantes." },
       { property: "og:title", content: "Nos services — MRT Auto Premium" },
       { property: "og:description", content: "Un accompagnement complet, de A à Z, pour l'achat ou la vente de votre véhicule." },
       { property: "og:url", content: "/services" },
