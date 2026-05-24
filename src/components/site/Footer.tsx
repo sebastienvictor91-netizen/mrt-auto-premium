@@ -43,7 +43,7 @@ export function Footer() {
         <div>
           <h4 className="text-xs tracking-[0.2em] uppercase text-muted-foreground mb-5 font-semibold">Contact</h4>
           <ul className="space-y-3.5 text-sm text-muted-foreground">
-            <li className="flex gap-3"><MapPin size={16} className="mt-0.5 shrink-0 text-petrol" /> <span className="text-foreground">34A Rue de Bellevue<br />44340 Montbert</span></li>
+            <li className="flex gap-3"><MapPin size={16} className="mt-0.5 shrink-0 text-petrol" /> <span className="text-foreground">16 Rue du Vivier, ZA de la Raye<br />44340 Montbert</span></li>
             <li className="flex gap-3"><Phone size={16} className="mt-0.5 shrink-0 text-petrol" /> <a href="tel:+33746271955" className="text-foreground hover:text-petrol">+33 7 46 27 19 55</a></li>
             <li className="flex gap-3"><Mail size={16} className="mt-0.5 shrink-0 text-petrol" /> <a href="mailto:contact@mrtautopremium.fr" className="text-foreground hover:text-petrol break-all">contact@mrtautopremium.fr</a></li>
           </ul>

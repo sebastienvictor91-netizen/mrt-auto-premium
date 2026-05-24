@@ -225,7 +225,7 @@ export const Route =
             address: {
               "@type": "PostalAddress",
 
-              streetAddress: "34A Rue de Bellevue",
+              streetAddress: "16 Rue du Vivier, ZA de la Raye",
 
               postalCode: "44340",
 
